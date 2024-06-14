@@ -1,0 +1,160 @@
+#row1{
+   position: fixed;
+   top: 0;
+   padding-top: 2vh;
+    background-color: #f7f1dc;
+    border-color: #fa962a;
+    height: 7vh;
+    width: 100%;
+    z-index: 10;
+}
+
+
+#bt1{
+  background-color: #f7f1dc;
+  border: none;
+  color: brown;
+}
+
+#menu{
+    border: none;
+   
+}
+
+.social{
+    border-width: 10vh;
+    padding: 1vh;
+    height: 50vh;
+    color: brown;
+}
+
+#menuOptions{
+    padding: 10vh;
+    position: fixed;
+    font-size: larger;
+    top: 0;
+    left: 0;
+    color: black;
+    background-color: white;
+    height: 100%;
+   display: none;
+   z-index: 15;
+   transition: all 5s ease-in;
+}
+
+#menuOptions a{
+    color:black
+}
+
+#menuOptions a:hover{
+    color:#fa962a;
+}
+
+#cross{
+    background-color: white;
+    position:fixed;
+    top:0;
+    left:0;
+    border:none;
+}
+
+
+.slider{
+    
+    
+    position: absolute;    
+    white-space: nowrap;
+    padding: 4vw;
+    overflow: hidden;
+    height: 80%;
+    width: 70%;
+    background-color: #f7f1dc;
+    
+}
+
+
+
+.last{
+    position: fixed;
+   bottom: 2vh;
+   left: 2vh;
+    display: flex;
+    
+}
+
+#whatsapp{
+    position: fixed;
+    right: 2vh;
+    animation-name: bada;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#phone{
+    animation-name: bada;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+
+.third{
+    display: flex;
+    justify-content: center;
+    background-color: #f7f1dc;
+}
+
+#back{
+    position: absolute;
+    top:7.1vh;
+    border-color: #fa962a;
+    border-width: 10px;
+    left: 0;
+    border-top-color: #fa962a;
+    height: 100%;
+    width: 100%;
+    background-color: #f7f1dc;
+}
+
+#line{
+
+ background-color: brown;
+  margin-top: 7vh;
+  z-index: 40;
+   
+}
+
+.slide{
+    
+    width: 100%;   
+   display: inline-block;
+    animation-name: mobe;
+    animation-duration: 5s;
+   
+    animation-timing-function: ease-in-out;   
+    animation-iteration-count: infinite;
+}
+
+@keyframes mobe {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+       
+    }
+
+}
+
+@keyframes bada{
+    from {
+        transform: scale(1);
+    }
+
+    to {
+       transform: scale(1.2);
+       
+    }
+}
