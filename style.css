@@ -89,6 +89,7 @@
     animation-iteration-count: infinite;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    
 }
 
 #phone{
@@ -157,4 +158,71 @@
        transform: scale(1.2);
        
     }
+}
+
+.page{
+     background-color: #fff;
+    position:relative;
+    top: 90vh;
+    justify-content: center;
+}
+
+.page p{
+    padding-top: 2vh;
+ font-size: 7vh;
+ color: brown;
+}
+
+.page pre{
+    font-size: 2.5vh;
+}
+
+.button{
+    color: white;
+    background-color: #fa962a;
+    border: none;
+    border-radius: 10px;
+    font-size: 4vh;
+    height: 8vh;
+    width: 30vw;
+}
+
+#page3 {
+    position: relative;
+    top:95vh;
+    
+}
+
+#page3 img{
+    height: 60vh;
+}
+
+#page31{
+    font-size: 3vh;
+}
+
+#page32{
+    font-size: 6vh;
+    color: brown;
+}
+
+#page33{
+    padding-top: 5vh;
+    font-size: 2.7vh;
+}
+
+#page3sec{
+    padding-left: 1vw;
+    background-color: #EEEEEE;
+}
+
+#secbutton{
+    width: 17vw;
+    height: 5vh;
+    font-size: 3vh;
+}
+
+#page2{
+    position: relative;
+    top: 100vh;
 }
