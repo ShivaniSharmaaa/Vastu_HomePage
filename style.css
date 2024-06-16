@@ -66,7 +66,7 @@
     white-space: nowrap;
     padding: 4vw;
     overflow: hidden;
-    height: 80vh;
+    height: 79vh;
     width: 70%;
     background-color: #f7f1dc;
     
@@ -160,7 +160,9 @@
 .page{
      background-color: #fff;
     position:relative;
+    
     top: 90vh;
+    
     justify-content: center;
 }
 
@@ -172,6 +174,9 @@
 
 .page pre{
     font-size: 2.5vh;
+    white-space: pre-line;
+    word-wrap: break-word;
+    text-align: justify;           
 }
 
 .button{
@@ -206,6 +211,13 @@
 #page33{
     padding-top: 5vh;
     font-size: 2.7vh;
+  
+}
+
+#page3 pre{
+    white-space: pre-line;
+    word-wrap: break-word;
+    text-align: justify;
 }
 
 #page3sec{
@@ -219,7 +231,58 @@
     font-size: 3vh;
 }
 
+#thirdbutton{
+    height: 5vh; 
+    width: 20vw;
+     font-size: 3vh;
+}
+
 #page2{
     position: relative;
     top: 100vh;
+}
+
+@media(max-width:768px){
+    .slide{
+        height: 45vh;
+    }
+   .slider{
+    height: 40vh;
+   }
+   #back{
+    height: 45vh;
+   }
+   .page{
+    top:46vh;
+
+   }
+
+   .page p{
+    font-size: 5vh;
+   }
+   
+   .button{
+    height: 4vh;
+    font-size: 3vh;
+    width: 60vw;
+   }
+  
+   #page3{
+    top: 50vh;
+   }
+   #page3 img{
+    height: 50vh;
+   }
+
+   #secbutton{
+    width: 40vw;
+   }
+
+   #page2{
+    top: 50vh;
+   }
+   #thirdbutton{
+    width: 50vw;
+   }
+   
 }
