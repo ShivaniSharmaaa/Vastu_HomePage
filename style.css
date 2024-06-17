@@ -242,6 +242,73 @@
     top: 100vh;
 }
 
+.page4{
+    position: relative;
+    top: 102vh;
+
+}
+
+.page4 img{
+    border-radius: 50%;
+    height: 30vh;
+    padding: 3vh;
+}
+
+.head{
+    font-size: 3.5vh;
+    color: brown;
+}
+
+.about button{
+    width: 15vw;
+    font-size: 3vh;
+    height: 4vh;
+}
+
+.topic{
+    font-size: 6vh;
+    color: brown;
+}
+
+.def{
+    font-size: 3vh;
+}
+
+.page5{
+    padding-top: 10vh;
+}
+
+#drpDef{
+    width: 10%;
+    border: none;
+    height: 40vh;
+}
+
+.ques{
+   
+    color: black;
+    
+   margin: 2vh;
+}
+
+
+
+.ques p{
+    width: 100%;
+    background-color: #f7f1dc ;
+    border-color: #EEEEEE;
+    overflow-wrap: break-word;
+}
+
+
+
+
+
+.page5{
+    padding-top: 5vh ;
+}
+
+
 @media(max-width:768px){
     .slide{
         height: 45vh;
@@ -285,5 +352,16 @@
    #thirdbutton{
     width: 50vw;
    }
+
+   .page4{
+    top: 55vh;
+   }
+
+   #but4,#but5,#but6{
+    width: 50vw;
+    height: 4vh;
+    font-size: 3vh;
+   }
+   
    
 }
