@@ -277,7 +277,7 @@
 .about button{
     width: 15vw;
     font-size: 3vh;
-    height: 4vh;
+    height: 5vh;
 }
 
 .topic{
@@ -324,6 +324,15 @@
     color: white;
     background-color: #FF9F66;
     justify-content: center;
+}
+
+.page6 img{
+    height: 35vh;
+    border-radius: 0%;
+}
+
+.page6 {
+margin-top: 8vh;
 }
 
 
@@ -375,7 +384,7 @@
     top: 55vh;
    }
 
-   #but4,#but5,#but6{
+   .about button{
     width: 50vw;
     height: 4vh;
     font-size: 3vh;
