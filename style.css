@@ -315,12 +315,15 @@
     overflow-wrap: break-word;
 }
 
-
-
-
-
 .page5{
     padding-top: 5vh ;
+}
+
+.bottom{
+    font-size: 4vh;
+    color: white;
+    background-color: #FF9F66;
+    justify-content: center;
 }
 
 
