@@ -28,6 +28,19 @@
     color: brown;
 }
 
+.social2{
+    margin-top: 6vh;
+    font-size: 4vh;
+    color: brown;
+    
+}
+
+.info{
+    margin-top: 3vh;
+    font-size: 3vh;
+    color: brown;
+}
+
 #menuOptions{
     padding: 10vh;
     position: fixed;
@@ -83,6 +96,7 @@
 }
 
 #whatsapp{
+    z-index: 10000 !important;
     position: fixed;
     right: 2vh;
     animation-name: bada;
@@ -93,6 +107,7 @@
 }
 
 #phone{
+    z-index:10000 ;
     animation-name: bada;
     animation-iteration-count: infinite;
     animation-duration: 2s;
@@ -115,7 +130,7 @@
     background-color: #f7f1dc;
 }
 
-#line{
+.line{
 
  background-color: brown;
   margin-top: 7vh;
