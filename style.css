@@ -357,7 +357,7 @@ margin-top: 8vh;
    }
    
    .button{
-    height: 4vh;
+    height: 5vh;
     font-size: 3vh;
     width: 60vw;
    }
@@ -386,8 +386,9 @@ margin-top: 8vh;
    }
 
    .about button{
+    
     width: 50vw;
-    height: 4vh;
+    height: 5vh;
     font-size: 3vh;
    }
    
