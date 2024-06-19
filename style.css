@@ -195,6 +195,7 @@
 }
 
 .button{
+   
     color: white;
     background-color: #fa962a;
     border: none;
@@ -336,6 +337,17 @@
 margin-top: 8vh;
 }
 
+.expert{
+    height: 63vh;
+    width: 100%;
+}
+
+#divya1{
+    display: none;
+}
+#eshaan1{
+    display: none;
+}
 
 @media(max-width:768px){
     .slide{
@@ -391,6 +403,20 @@ margin-top: 8vh;
     height: 5vh;
     font-size: 3vh;
    }
-   
+
+   #divya2{
+    display: none;
+   }
+   #divya1{
+    display: block;
+}
+
+#eshaan2{
+    display: none;
+   }
+   #eshaan1{
+    display: block;
+}
+
    
 }
