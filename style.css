@@ -357,10 +357,16 @@ margin-top: 8vh;
     font-size: 3vh;
 }
 
+
+
 .case1{
     margin-right: 2vw;
 }
 
+.case{
+    margin-right: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .case2{
     margin-top: 2vh;
 }
@@ -437,6 +443,7 @@ margin-top: 8vh;
 .case{
     margin-top: 5vh;
     margin-right: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
  
 .case2{
