@@ -349,6 +349,14 @@ margin-top: 8vh;
     display: none;
 }
 
+.blogImg{
+    height: 25vh;
+}
+
+.blogs p{
+    font-size: 3vh;
+}
+
 @media(max-width:768px){
     .slide{
         height: 45vh;
