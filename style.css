@@ -357,6 +357,14 @@ margin-top: 8vh;
     font-size: 3vh;
 }
 
+.case1{
+    margin-right: 2vw;
+}
+
+.case2{
+    margin-top: 2vh;
+}
+
 @media(max-width:768px){
     .slide{
         height: 45vh;
@@ -426,5 +434,12 @@ margin-top: 8vh;
     display: block;
 }
 
-   
+.case{
+    padding-top: 5vh;
+    margin-right: 0;
+}
+ 
+.case2{
+    margin-top: 0;
+}
 }
