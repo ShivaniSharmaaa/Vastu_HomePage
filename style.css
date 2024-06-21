@@ -284,6 +284,8 @@
     height: 5vh;
 }
 
+
+
 .topic{
     font-size: 6vh;
     color: brown;
@@ -525,4 +527,8 @@ margin-top: 8vh;
 .Insights2 img{
    margin-top: 2vh;
   }
+
+.about img{
+   margin-left: 10vh;
+}
 }
