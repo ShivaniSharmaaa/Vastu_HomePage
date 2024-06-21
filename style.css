@@ -322,6 +322,17 @@
     overflow-wrap: break-word;
 }
 
+.steps{
+  color: black;
+}
+
+.steps p{
+    width: 100%;
+    font-size: 3vh;
+    background-color: #EEE ;
+    border-color: #EEEEEE;
+    overflow-wrap: break-word;
+}
 .page5{
     padding-top: 5vh ;
 }
