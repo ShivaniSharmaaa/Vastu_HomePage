@@ -272,8 +272,10 @@
 }
 
 .head{
-    font-size: 3.5vh;
+   font-weight: 500;
+    font-size: 4vh;
     color: brown;
+    text-align: center;
 }
 
 .about button{
@@ -285,9 +287,10 @@
 .topic{
     font-size: 6vh;
     color: brown;
+    text-align: center;
 }
 
-.def{
+.def{text-align: center;
     font-size: 3vh;
 }
 
