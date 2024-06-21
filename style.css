@@ -357,8 +357,55 @@ margin-top: 8vh;
     font-size: 3vh;
 }
 
+.VastuInsights p{
+ margin-top: 2vh;
+  margin-left: 6vw;
+}
 
+.VastuInsights Img{
+    height: 30vh;
+}
+.socialVI{
+    padding: 1vh;
+    
+    font-size: 2vh;
+    color: white;
+    background-color: #fa962a;
+    border-radius: 50%;
+   
+}
 
+.tips{
+    margin-top: 3vh;
+    margin-left: 6vw;
+    border-radius: 5px;
+    background-color: #f7f1dc;
+    border: none;
+}
+
+.Vastu{
+    margin-top: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+.side{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background-color: #EEE;
+    border-radius: 5px;
+    border: none;
+    width: 10vw;
+}
+.Insights2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.Insights2 img{
+    height: 8vh; margin-top: 5vh;
+}
 .case1{
     margin-right: 2vw;
 }
@@ -371,7 +418,13 @@ margin-top: 8vh;
     margin-top: 2vh;
 }
 
+.secrow{
+    margin-top: 2vh;
+}
 @media(max-width:768px){
+    .secrow{
+        margin-top: 0;
+    }
     .slide{
         height: 45vh;
     }
@@ -449,4 +502,24 @@ margin-top: 8vh;
 .case2{
     margin-top: 0;
 }
+
+.Insights2{
+    margin-left: 0;
+}
+
+.side{
+    width: 40vw;
+}
+.VastuInsights p,button{
+    margin-left: 0;
+}
+
+.Insights2 p{
+  font-size: 2.5vh;
+  padding-left: 11vw;
+}
+
+.Insights2 img{
+   margin-top: 2vh;
+  }
 }
