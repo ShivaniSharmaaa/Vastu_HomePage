@@ -457,6 +457,9 @@ margin-top: 8vh;
     display: none;
 }
 
+.office img{
+    height: 67vh;
+}
 
 @media(max-width:768px){
     .secrow{
@@ -578,5 +581,9 @@ margin-top: 8vh;
 
 .img2{
     display: none;
+}
+
+.office img{
+    height: 28vh;
 }
 }
