@@ -437,6 +437,27 @@ margin-top: 8vh;
 .secrow{
     margin-top: 2vh;
 }
+
+.home img{
+    height: 51vh;
+   
+}
+
+.home{
+    background-color: #f7f1dc;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.homes img{
+    height: 51vh;
+}
+
+.img1{
+    display: none;
+}
+
+
 @media(max-width:768px){
     .secrow{
         margin-top: 0;
@@ -541,5 +562,21 @@ margin-top: 8vh;
 
 .about1 img{
    margin-left: 10vh;
+}
+
+.home img{
+    height: 15vh;
+}
+
+.homes img{
+    height: 35vh;
+}
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
 }
 }
