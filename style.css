@@ -181,11 +181,7 @@
     justify-content: center;
 }
 
-.page p{
-    padding-top: 2vh;
- font-size: 7vh;
- color: brown;
-}
+
 
 .page pre{
     font-size: 2.5vh;
@@ -199,10 +195,20 @@
     color: white;
     background-color: #fa962a;
     border: none;
+  
     border-radius: 10px;
     font-size: 4vh;
     height: 8vh;
     width: 30vw;
+}
+
+.button a{
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover{
+    background-color: red ;
 }
 
 #page3 {
@@ -225,11 +231,7 @@
     color: brown;
 }
 
-#page33{
-    padding-top: 5vh;
-    font-size: 2.7vh;
-  
-}
+
 
 #page3 pre{
     white-space: pre-line;
