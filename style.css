@@ -183,13 +183,6 @@
 
 
 
-.page pre{
-    font-size: 2.5vh;
-    white-space: pre-line;
-    word-wrap: break-word;
-    text-align: justify;           
-}
-
 .button{
    
     color: white;
@@ -485,9 +478,7 @@ margin-top: 8vh;
 
    }
 
-   .page p{
-    font-size: 5vh;
-   }
+   
    
    .button{
     height: 5vh;
