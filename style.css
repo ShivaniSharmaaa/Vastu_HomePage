@@ -95,6 +95,7 @@
     
 }
 
+
 #whatsapp{
     z-index: 10000 !important;
     position: fixed;
@@ -106,9 +107,28 @@
     
 }
 
+#whatsappHome{
+    z-index: 10000 !important;
+    position: fixed;
+    right: 2vh;
+    animation-name: badaHome;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+
 #phone{
     z-index:10000 ;
     animation-name: bada;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#phoneHome{
+    z-index:10000 ;
+    animation-name: badaHome;
     animation-iteration-count: infinite;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -168,6 +188,17 @@
 
     to {
        transform: scale(1);
+       
+    }
+}
+
+@keyframes badaHome{
+    from {
+        transform: scale(0.25);
+    }
+
+    to {
+       transform: scale(0.3);
        
     }
 }
