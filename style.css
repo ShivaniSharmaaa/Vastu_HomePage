@@ -95,6 +95,13 @@
     
 }
 
+.lastHome{
+    position: fixed;
+   bottom: 0;
+   left: -10vh;
+    display: flex;
+    
+}
 
 #whatsapp{
     z-index: 10000 !important;
@@ -110,7 +117,7 @@
 #whatsappHome{
     z-index: 10000 !important;
     position: fixed;
-    right: 2vh;
+    right: -10vh;
     animation-name: badaHome;
     animation-iteration-count: infinite;
     animation-duration: 2s;
@@ -119,6 +126,7 @@
 }
 
 #phone{
+    
     z-index:10000 ;
     animation-name: bada;
     animation-iteration-count: infinite;
@@ -127,6 +135,8 @@
 }
 
 #phoneHome{
+   
+    left: 0;
     z-index:10000 ;
     animation-name: badaHome;
     animation-iteration-count: infinite;
