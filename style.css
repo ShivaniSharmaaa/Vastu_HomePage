@@ -97,7 +97,7 @@
 
 .lastHome{
     position: fixed;
-   bottom: 0;
+   bottom:-3vh;
    left: -10vh;
     display: flex;
     
@@ -663,5 +663,9 @@ margin-top: 8vh;
 
 .sidebar2{
     display: block;
+}
+
+.blogImg{
+    height: 29vh;
 }
 }
