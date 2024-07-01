@@ -506,8 +506,16 @@ margin-top: 8vh;
     height: 70vh;
 }
 
+.Points img{
+    height: 70vh;
+}
+
 .ImgIcon{
     height: 23vh;
+}
+
+.sidebar2{
+    display: none;
 }
 
 @media(max-width:768px){
@@ -634,6 +642,10 @@ margin-top: 8vh;
     height: 24vh;
 }
 
+.Points img{
+    height: 30vh;
+}
+
 .aboutEshaan img{
     height: 40vh;
 }
@@ -643,5 +655,13 @@ margin-top: 8vh;
 
 .bigImg img{
     height: 31vh;
+}
+
+.sidebar1{
+    display: none;
+}
+
+.sidebar2{
+    display: block;
 }
 }
